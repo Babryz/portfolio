@@ -1,0 +1,11 @@
+#about {
+    font-size: 18px;
+}
+
+#about>h3 {
+    margin: 10px;
+}
+
+#about>p {
+    margin: 7px;
+}

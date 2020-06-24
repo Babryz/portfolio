@@ -6,7 +6,7 @@ import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Projects from './components/projects/projects';
 
-import linkedIn from './pictures/linkedin.jpg'
+import profilePic from './pictures/profile-pic.jpg';
 
 function App() {
   return (
@@ -14,9 +14,10 @@ function App() {
     <div className="App">
         <header>
           <div id="presentation">
-            <img src={linkedIn} alt="A picture of me"/>
             <h1>Emil Babra</h1>
-            <h2>Student in Fullstack Webdevelopment</h2>
+            <img src={profilePic} alt="A picture of me"/>
+            <h2>Currently studying 
+            <br/>Fullstack Webdevelopment</h2>
           </div>
           <nav>
             <ul id="main-menu">

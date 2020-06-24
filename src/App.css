@@ -7,22 +7,32 @@
 body {
     width: 100%;
     height: 100%;
+    background-color: #FFFDED;
 }
 
-header {
-    border-radius: 0px 0px 5px 5px;
-    background-color: #24873A;
+main {
     display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
 }
 
+header {
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/green-pattern.jpg');
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
 #presentation {
-    margin-top: 50px;
+    margin: 20px;
+    text-align: center;
     display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
 }
 
@@ -31,23 +41,26 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 4px solid #EFEBCA;
 }
 
 #presentation>h1 {
-    font-family: 'Sriracha', serif;
+    padding: 10px;
+    font-family: 'Impact';
     color: #FFFDED;
 }
 
 #presentation>h2 {
-    font-family: 'Eczar', serif;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Sriracha', serif;
     color: #FFFDED;
-    font-size: 20px;
-    margin: 15px;
+    font-size: 18px;
 }
 
 header>nav {
-    width: 100%;
+    margin: 15px;
+    width: 60%;
+    align-self: flex-end;
 }
 
 #main-menu {
@@ -64,6 +77,7 @@ header>nav {
 }
 
 #main-menu>li>a {
+    font-family: 'Sriracha';
     font-size: 30px;
     text-decoration: none;
     color: #FFFDED;
@@ -71,4 +85,13 @@ header>nav {
 
 #main-menu>li>a:hover {
     text-decoration: underline;
+}
+
+.container {
+    margin: 25px;
+    padding: 15px;
+    width: 90%;
+    background-color: #EFEBCA;
+    border: 2px solid black;
+    border-radius: 25px;
 }
