@@ -13,11 +13,16 @@
         flex-wrap: wrap;
 }
 
-#skills-li>ul>li {
+ul>li {
+    text-align: center;
     width: 40%;
     margin: 5px;
     display: flex;
         align-items: center;
+}
+
+#html {
+    width: 80%;
 }
 
 li>img {

@@ -20,8 +20,6 @@ header {
     width: 100%;
     border-radius: 0px 0px 5px 5px;
     background-size: 100%;
-    background-position: 50%;
-    background-repeat: no-repeat;
     background-image: url('./pictures/green-pattern.jpg');
     display: flex;
         align-items: center;
@@ -29,6 +27,7 @@ header {
 }
 
 #header-container {
+    margin: 20px;
     display: flex; 
         align-items: center;
 }
@@ -55,8 +54,6 @@ header {
 }
 
 header h2 {
-    margin: 20px;
-    text-align: center;
     font-weight: lighter;
     color: #FFFFFF;
     font-size: 30px;
@@ -64,7 +61,6 @@ header h2 {
 
 #contact {
     margin: 20px;
-    justify-self: flex-end;
 }
 
 #contact li {
@@ -92,4 +88,74 @@ header h2 {
     padding: 15px;
     width: 70%;
     display: flex;
+}
+
+footer {
+    min-height: 125px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/green-pattern.jpg');
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+footer>p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer>div {
+    color: #FFFFFF;
+    font-size: smaller;
+    text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    margin: 3px;
+}
+
+footer a:hover {
+    color: purple;
+}
+
+@media screen and (max-width: 992px) {
+
+    #header-container {
+        flex-direction: column;
+            align-items: flex-start;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about>img {
+        max-width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    #header-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    #skills-li>ul {
+        justify-content: center;
+    }
 }

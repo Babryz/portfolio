@@ -10,7 +10,7 @@ import profilePic from './pictures/profile-pic.jpg';
 import githubIcon from './pictures/github.png';
 import linkedInIcon from './pictures/linkedIn.png';
 import downloadIcon from './pictures/download.png';
-import CV from './files/emil_babra_cv.pdf';
+import CV from './files/CV-Emil-Babra.pdf';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           </div>
           <div id="contact">
               <ul>
-                <li><b>E-mail:</b>brittsboemil@gmail.com</li>
+                <li><b>Email:</b>brittsboemil@gmail.com</li>
                 <li><b>Mobile: </b>+46762447557</li>
                 <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/emil-babra-1b707a1b1">
                   <img src={linkedInIcon} alt="Link to linkedIn profile"/></a>
@@ -44,6 +44,14 @@ function App() {
             <Projects />
             <Skills />
         </main>
+        <footer>
+            <p>Created with React by Emil Babra</p>
+            <div>Icons made by  
+              <a href="https://www.flaticon.com/authors/freepik" 
+              title="Freepik">Freepik</a> 
+              from <a href="https://www.flaticon.com/" 
+              title="Flaticon">www.flaticon.com</a></div>
+        </footer>
     </div>
   );
 }

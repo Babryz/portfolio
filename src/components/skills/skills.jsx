@@ -14,7 +14,7 @@ const Skills = () => {
             <h3>What skills do I possess?</h3>
             <div id="skills-li">
                 <ul>
-                    <li>HTML, CSS & JS <img src={htmlIcon} alt=""/></li>
+                    <li id="html">HTML, CSS & JS <img src={htmlIcon} alt=""/></li>
                     <li>PHP <img src={phpIcon} alt=""/></li>
                     <li>React <img src={reactIcon} alt=""/></li>
                     <li>Angular <img src={angularIcon} alt=""/></li>
