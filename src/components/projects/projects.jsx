@@ -26,7 +26,7 @@ const Projects = () => {
                     <h4>Hangman Game</h4>
                     <div id="background">
                         <div>
-                            <a href="https://github.com/Babryz/hangmang">Code</a>
+                            <a href="https://github.com/Babryz/hangman">Code</a>
                         </div>
                     </div>
                 </div>

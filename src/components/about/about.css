@@ -1,15 +1,11 @@
-#about {
-    font-size: 18px;
-}
-
 #about-txt>h3 {
     margin: 7px;
-    font-family: 'Sriracha';
+    font-size: 24px;
 }
 
 #about-txt>p {
     margin: 7px;
-    font-family: 'Sriracha';
+    font-size: 18px;
 }
 
 #about>img {

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sriracha', serif;
 }
 
 body {
@@ -24,7 +25,12 @@ header {
     background-image: url('./pictures/green-pattern.jpg');
     display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
+}
+
+#header-container {
+    display: flex; 
+        align-items: center;
 }
 
 #presentation {
@@ -45,46 +51,36 @@ header {
 #presentation>h1 {
     padding: 10px;
     font-family: 'Impact';
-    color: #FFFDED;
+    color: #FFFFFF;
 }
 
-header>h2 {
+header h2 {
     margin: 20px;
     text-align: center;
     font-weight: lighter;
-    font-family: 'Sriracha', serif;
-    color: #FFFDED;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
-header>nav {
-    margin: 15px;
-    width: 60%;
-    align-self: flex-end;
+#contact {
+    margin: 20px;
+    justify-self: flex-end;
 }
 
-#main-menu {
-    width: 100%;
-    list-style: none;
+#contact li {
+    color: #FFFFFF;
     display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-items: center;
 }
 
-#main-menu>li {
-    padding: 5px;
-    margin: 15px;
+#contact img {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
 }
 
-#main-menu>li>a {
-    font-family: 'Sriracha';
-    font-size: 30px;
-    text-decoration: none;
-    color: #FFFDED;
-}
-
-#main-menu>li>a:hover {
-    text-decoration: underline;
+#contact b {
+    margin-right: 5px;
 }
 
 .container {

@@ -1,0 +1,27 @@
+.skills {
+    flex-direction: column;
+}
+
+.skills>h3 {
+    font-size: 24px;
+}
+
+#skills-li>ul {
+    list-style: none;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+#skills-li>ul>li {
+    width: 40%;
+    margin: 5px;
+    display: flex;
+        align-items: center;
+}
+
+li>img {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
