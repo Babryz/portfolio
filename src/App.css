@@ -79,6 +79,10 @@ header h2 {
     margin-left: 20px;
 }
 
+#contact img:hover {
+    border: 2px solid white;
+}
+
 #contact b {
     margin-right: 5px;
 }
