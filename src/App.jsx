@@ -14,37 +14,14 @@ function App() {
     <div className="App">
         <header>
           <div id="presentation">
-            <h1>Emil Babra</h1>
             <img src={profilePic} alt="A picture of me"/>
-            <h2>Currently studying 
-            <br/>Fullstack Webdevelopment</h2>
+            <h1>Emil Babra</h1>
           </div>
-          <nav>
-            <ul id="main-menu">
-              <li>
-                <Link to="/">Projects</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/resume">Resumé</Link>
-              </li>
-            </ul>
-          </nav>
+          <h2>Currently studying Fullstack Webdevelopment</h2>
         </header>
         <main>
-            <Switch>
-                <Route exact path="/">
-                    <Projects />
-                </Route>
-                <Route path="/about">
-                    <About />
-                </Route>
-                <Route path="/resume">
-                    <Resume />
-                </Route>
-            </Switch>
+            <About />
+            <Projects />
         </main>
     </div>
     </Router>
