@@ -61,9 +61,12 @@
 
 #background>div {
     margin: 20px;
+    display: flex;
+        flex-direction: column;
 }
 
 #background>div>a {
+    margin: 5px;
     font-size: 20px;
     border: 2px solid black;
     border-radius: 25px;

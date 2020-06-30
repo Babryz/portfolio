@@ -10,6 +10,7 @@ const Projects = () => {
                     <h4>React Weather App</h4>
                     <div id="background">
                         <div>
+                            <a href="https://weather.emilbabra.se">Live</a>
                             <a href="https://github.com/chas-academy/u09-react-weather-app">Code</a>
                         </div>
                     </div>
@@ -18,6 +19,7 @@ const Projects = () => {
                     <h4>Angular Movie App</h4>
                     <div id="background">
                         <div>
+                            <a href="https://movies.emilbabra.se">Live</a>
                             <a href="https://github.com/chas-academy/u07-angular-movie-app">Code</a>
                         </div>
                     </div>
@@ -26,6 +28,7 @@ const Projects = () => {
                     <h4>Hangman Game</h4>
                     <div id="background">
                         <div>
+                            <a href="https://hangman.emilbabra.se">Live</a>
                             <a href="https://github.com/Babryz/hangman">Code</a>
                         </div>
                     </div>
