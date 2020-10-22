@@ -7,6 +7,8 @@ import reactIcon from '../../pictures/react.png';
 import angularIcon from '../../pictures/angular.png';
 import nodeJSIcon from '../../pictures/nodeJS.png';
 import gitIcon from '../../pictures/git.png';
+import TSIcon from "../../pictures/typescript.png";
+import GraphQLIcon from "../../pictures/graphqlpng.png"
 
 const Skills = () => {
     return (
@@ -20,6 +22,9 @@ const Skills = () => {
                     <li>Angular <img src={angularIcon} alt=""/></li>
                     <li>NodeJS <img src={nodeJSIcon} alt=""/></li>
                     <li>Git <img src={gitIcon} alt=""/></li>
+                    <li>TypeScript <img src={TSIcon} alt=""/></li>
+                    <li>GraphQL <img src={GraphQLIcon} alt=""/></li>
+
                 </ul>
             </div>
         </div>
