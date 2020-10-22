@@ -6,6 +6,15 @@ const Projects = () => {
         <div className="container projects">
             <h3>What have I built?</h3>
             <div id="projects">
+            <div className="project" id="fullstack">
+                    <h4>React Weather App</h4>
+                    <div id="background">
+                        <div>
+                            <a href="https://rlitems.emilbabra.se">Live</a>
+                            <a href="https://github.com/chas-academy/u11-fullstack-js">Code</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="project" id="weather-app">
                     <h4>React Weather App</h4>
                     <div id="background">
