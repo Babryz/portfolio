@@ -7,7 +7,7 @@ const Projects = () => {
             <h3>What have I built?</h3>
             <div id="projects">
             <div className="project" id="fullstack">
-                    <h4>React Weather App</h4>
+                    <h4>React/GraphQL Web Shop</h4>
                     <div id="background">
                         <div>
                             <a href="https://rlitems.emilbabra.se">Live</a>
