@@ -12,32 +12,35 @@ body {
 
 main {
     display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
 }
 
 header {
     width: 100%;
     border-radius: 0px 0px 5px 5px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url('./pictures/green-pattern.jpg');
     display: flex;
-        align-items: center;
-        justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #header-container {
     margin: 20px;
     display: flex; 
-        align-items: center;
+    align-items: center;
 }
 
 #presentation {
     margin: 20px;
     text-align: center;
     display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #presentation>img {
@@ -73,10 +76,12 @@ header h2 {
     height: 25px;
     width: 25px;
     margin-left: 20px;
+    transform: rotate(0);
+    transition: transform 150ms ease-in-out
 }
 
 #contact img:hover {
-    border: 2px solid white;
+    transform: rotate(-20deg);
 }
 
 #contact b {
@@ -84,10 +89,10 @@ header h2 {
 }
 
 .container {
-    margin: 25px;
-    padding: 15px;
+    padding: 10px;
     width: 70%;
     display: flex;
+    margin: 30px auto;
 }
 
 footer {
@@ -122,6 +127,12 @@ footer a {
 
 footer a:hover {
     color: purple;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        margin: 30px 0;
+    }
 }
 
 @media screen and (max-width: 992px) {

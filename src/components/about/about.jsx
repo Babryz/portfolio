@@ -9,8 +9,7 @@ const About = () => {
                 <div id="about-txt">
                     <h3>Who am I?</h3>
                     <p>
-                        I'm a social, problemsolving and witty webdevelopment student, currently studying at Chas Academy which is
-                        a 2 year education. The reason that I got into devoloping is because I've always been very interested in tech
+                        I'm a social, problemsolving and witty webdeveloper with a degree in fullstack webdevelopment from Chas Academy. The reason that I got into devoloping is because I've always been very interested in tech
                          in general and I also like getting creative with how I solve problems, which comes in really handy in 
                          programming itself.
                         <br/>
