@@ -6,7 +6,15 @@ const Projects = () => {
         <div className="container projects">
             <h3>What have I built?</h3>
             <div id="projects">
-            <div className="project" id="fullstack">
+            <div className="project" id="eventpaket">
+                    <h4>Wordpress/Woocommerce/AlpineJS webshop</h4>
+                    <div id="background">
+                        <div>
+                            <a href="https://eventpaket.se">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="project" id="fullstack">
                     <h4>React/GraphQL Web Shop</h4>
                     <div id="background">
                         <div>

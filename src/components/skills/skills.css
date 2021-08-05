@@ -4,29 +4,30 @@
 
 .skills>h3 {
     font-size: 24px;
+    margin-bottom: 25px;
 }
 
 #skills-li>ul {
     list-style: none;
-    display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
 }
 
 ul>li {
-    text-align: center;
-    width: 40%;
-    margin: 5px;
+    text-align: left;
     display: flex;
-        align-items: center;
-}
-
-#html {
-    width: 80%;
+    align-items: flex-start;
 }
 
 li>img {
     width: 25px;
     height: 25px;
-    margin: 3px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .container.skills {
+        width: 100%;
+    }
 }

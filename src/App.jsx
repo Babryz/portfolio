@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import About from './components/about/about';
@@ -10,7 +9,7 @@ import profilePic from './pictures/profile-pic.jpg';
 import githubIcon from './pictures/github.png';
 import linkedInIcon from './pictures/linkedIn.png';
 import downloadIcon from './pictures/download.png';
-import CV from './files/CV-Emil-Babra.pdf';
+import CV from './files/cv-portfolio-v2.pdf';
 
 function App() {
   return (
@@ -18,10 +17,10 @@ function App() {
         <header>
           <div id="header-container">
             <div id="presentation">
-              <img src={profilePic} alt="A picture of me"/>
+              <img src={profilePic} alt="Me"/>
               <h1>Emil Babra</h1>
             </div>
-            <h2>Currently studying Fullstack Webdevelopment</h2>
+            <h2>Fullstack Webdeveloper</h2>
           </div>
           <div id="contact">
               <ul>
