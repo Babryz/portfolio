@@ -54,6 +54,10 @@
   background-image: url("../../pictures/fullstack-js.PNG");
 }
 
+#jackpot-roller > #background {
+  background-image: url("../../pictures/jackpot-roller.PNG");
+}
+
 #background {
   min-height: 290px;
   width: 100%;
