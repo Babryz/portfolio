@@ -27,20 +27,6 @@
   box-shadow: 2px 2px 7px rgb(107, 80, 80);
 }
 
-/* .project > h4 {
-  font-size: 18px;
-  margin: 7px;
-  text-align: center;
-} */
-
-/* .project > div {
-  justify-self: center;
-} */
-
-.project-img {
-  /* border-bottom: 5px ridge rgba(80, 10, 39, 1); */
-}
-
 .project-img img {
   max-width: 100%;
 }
@@ -83,57 +69,6 @@
   background:rgba(66, 25, 42, 0.3);
   box-shadow: 4px 4px 10px rgb(107, 80, 80);
   color: rgba(66, 25, 42, 1);
-}
-
-/* #eventpaket > .background {
-  background-image: url("../../pictures/eventpaket.PNG");
-}
-
-#weather-app > .background {
-  background-image: url("../../pictures/weather-app-2.PNG");
-}
-
-#fullstack > .background {
-  background-image: url("../../pictures/fullstack-js.PNG");
-}
-
-#jackpot-roller > .background {
-  background-image: url("../../pictures/jackpot-roller.PNG");
-} */
-
-.background {
-  min-height: 290px;
-  width: 100%;
-  border: 1px solid black;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.background > div {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.background > div > a {
-  margin: 5px;
-  font-size: 20px;
-  border: 2px solid black;
-  border-radius: 25px;
-  padding: 1px 25px;
-  background-color: rgba(80, 10, 39, 1);
-  color: #fff;
-  transition: all 150ms ease-in-out;
-}
-
-.background > div > a:hover {
-  background-color: rgba(255, 255, 255, 1);
-  color: #000;
 }
 
 @media screen and (max-width: 600px) {

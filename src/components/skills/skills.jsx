@@ -18,20 +18,20 @@ import TWIcon from "../../pictures/tailwind.png";
 const Skills = () => {
     return (
         <div className="container skills">
-            <h3>What skills do I possess?</h3>
-            <div id="skills-li">
+            <h3>SKILLS</h3>
+            <div className="skills-list">
                 <ul>
-                    <li><img src={htmlIcon} alt=""/><span>HTML, CSS & JS</span></li>
-                    <li><img src={WPIcon} alt=""/><span>Wordpress</span></li>
-                    <li><img src={WCIcon} alt=""/><span>Woocommerce</span></li>
-                    <li><img src={phpIcon} alt=""/><span>PHP</span></li>
                     <li><img src={reactIcon} alt=""/><span>React</span></li>
+                    <li><img src={TSIcon} alt=""/><span>TypeScript</span></li>
                     <li><img src={nodeJSIcon} alt=""/><span>NodeJS</span></li>
                     <li><img src={gitIcon} alt=""/><span>Git</span></li>
                     <li><img src={AlpineIcon} alt=""/><span>AlpineJS</span></li>
-                    <li><img src={TWIcon} alt=""/><span>TailwindCSS</span></li>
-                    <li><img src={TSIcon} alt=""/><span>TypeScript</span></li>
+                    <li><img src={phpIcon} alt=""/><span>PHP</span></li>
                     <li><img src={GraphQLIcon} alt=""/><span>GraphQL</span></li>
+                    <li><img src={TWIcon} alt=""/><span>TailwindCSS</span></li>
+                    <li><img src={htmlIcon} alt=""/><span>HTML, CSS & JS</span></li>
+                    <li><img src={WPIcon} alt=""/><span>Wordpress</span></li>
+                    <li><img src={WCIcon} alt=""/><span>Woocommerce</span></li>
                     {/* <li><img src={angularIcon} alt=""/><span>Angular </span></li> */}
 
                 </ul>
