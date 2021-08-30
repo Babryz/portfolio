@@ -1,14 +1,14 @@
-#about-txt>h3 {
+.about-txt>h3 {
     margin: 7px;
     font-size: 24px;
 }
 
-#about-txt>p {
+.about-txt>p {
     margin: 7px;
     font-size: 18px;
 }
 
-#about>img {
+.about>img {
     max-height: 200px;
     margin: 40px 10px 10px 10px;
 }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 500px) {
 
-    #about-txt>p {
+    .about-txt>p {
         font-size: 16px;
     }
 }

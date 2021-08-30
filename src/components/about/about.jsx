@@ -5,8 +5,8 @@ import problem from '../../pictures/problem.jpg';
 
 const About = () => {
     return (
-        <div className="container" id="about">
-                <div id="about-txt">
+        <div className="container about">
+                <div className="about-txt">
                     <h3>Who am I?</h3>
                     <p>
                         I'm a social, problemsolving and witty webdeveloper with a degree in fullstack webdevelopment from Chas Academy. The reason that I got into devoloping is because I've always been very interested in tech

@@ -1,64 +1,107 @@
-.projects {
+.projects-container {
   display: flex;
   flex-direction: column;
+  margin: 100px auto;
 }
 
-.projects > h3 {
-  font-size: 24px;
+.projects-container > h3 {
+  font-size: 28px;
   margin: 7px;
-}
-
-#projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.project {
-  width: 45%;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.project > h4 {
-  font-size: 18px;
-  margin: 7px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.project > div {
-  justify-self: center;
+.projects {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#eventpaket > #background {
+.project {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* border: 4px ridge rgba(80, 10, 39, 1); */
+  /* background:rgba(192, 157, 157, 0.5); */
+  box-shadow: 2px 2px 7px rgb(107, 80, 80);
+}
+
+/* .project > h4 {
+  font-size: 18px;
+  margin: 7px;
+  text-align: center;
+} */
+
+/* .project > div {
+  justify-self: center;
+} */
+
+.project-img {
+  /* border-bottom: 5px ridge rgba(80, 10, 39, 1); */
+}
+
+.project-img img {
+  max-width: 100%;
+}
+
+.project-content {
+  padding: 10px;
+}
+
+.project-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.project-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  margin-top: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  background:rgba(66, 25, 42, 1);
+  box-shadow: 1px 1px 5px rgb(107, 80, 80);
+  border: 1px solid rgba(66, 25, 42, 1);
+  color: #fff;
+  padding: 6px 25px;
+  border-radius: 25px;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.project-link:hover {
+  background:rgba(66, 25, 42, 0.3);
+  box-shadow: 4px 4px 10px rgb(107, 80, 80);
+  color: rgba(66, 25, 42, 1);
+}
+
+/* #eventpaket > .background {
   background-image: url("../../pictures/eventpaket.PNG");
 }
 
-#weather-app > #background {
+#weather-app > .background {
   background-image: url("../../pictures/weather-app-2.PNG");
 }
 
-#movie-app > #background {
-  background-image: url("../../pictures/movie-app.PNG");
-}
-
-#hangman-game > #background {
-  background-image: url("../../pictures/hangman.PNG");
-}
-
-#fullstack > #background {
+#fullstack > .background {
   background-image: url("../../pictures/fullstack-js.PNG");
 }
 
-#jackpot-roller > #background {
+#jackpot-roller > .background {
   background-image: url("../../pictures/jackpot-roller.PNG");
-}
+} */
 
-#background {
+.background {
   min-height: 290px;
   width: 100%;
   border: 1px solid black;
@@ -71,13 +114,13 @@
   align-items: center;
 }
 
-#background > div {
+.background > div {
   margin: 20px;
   display: flex;
   flex-direction: column;
 }
 
-#background > div > a {
+.background > div > a {
   margin: 5px;
   font-size: 20px;
   border: 2px solid black;
@@ -88,15 +131,9 @@
   transition: all 150ms ease-in-out;
 }
 
-#background > div > a:hover {
+.background > div > a:hover {
   background-color: rgba(255, 255, 255, 1);
   color: #000;
-}
-
-@media screen and (max-width: 1200px) {
-  .project {
-    width: 90%;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -104,7 +141,7 @@
     width: unset;
   }
 
-  #background {
-    height: 250px;
+  .project {
+    max-width: 90vw;
   }
 }
