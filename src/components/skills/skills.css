@@ -18,21 +18,20 @@
     gap: 30px;
 }
 
-ul>li {
+.skills-list ul>li {
     text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     justify-content: center;
     box-shadow: 2px 2px 7px rgb(107, 80, 80);
-    /* color: #fff; */
     font-size: 20px;
 }
 
-li>img {
+.skills-list li>img {
     width: 50px;
     height: 50px;
 }
@@ -42,21 +41,13 @@ li>img {
         width: 100%;
     }
 
-    ul>li {
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .skills-list ul>li {
         width: 130px;
         height: 130px;
         font-size: 16px;
-        border-radius: 50%;
-        justify-content: center;
-        box-shadow: 2px 2px 7px rgb(107, 80, 80);
-        /* color: #fff; */
     }
 
-    li>img {
+    .skills-list li>img {
         width: 40px;
         height: 40px;
     }

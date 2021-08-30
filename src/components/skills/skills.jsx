@@ -32,8 +32,6 @@ const Skills = () => {
                     <li><img src={htmlIcon} alt=""/><span>HTML, CSS & JS</span></li>
                     <li><img src={WPIcon} alt=""/><span>Wordpress</span></li>
                     <li><img src={WCIcon} alt=""/><span>Woocommerce</span></li>
-                    {/* <li><img src={angularIcon} alt=""/><span>Angular </span></li> */}
-
                 </ul>
             </div>
         </div>
