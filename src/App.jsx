@@ -15,14 +15,14 @@ function App() {
   return (
     <div className="App">
         <header>
-          <div id="header-container">
-            <div id="presentation">
+          <div className="header-container">
+            <div className="presentation">
               <img src={profilePic} alt="Me"/>
               <h1>Emil Babra</h1>
             </div>
             <h2>Fullstack Webdeveloper</h2>
           </div>
-          <div id="contact">
+          <div className="contact">
               <ul>
                 <li><b>Email:</b>brittsboemil@gmail.com</li>
                 <li><b>Mobile: </b>+46762447557</li>
@@ -33,7 +33,7 @@ function App() {
                   <img src={githubIcon} alt="Link to Github profile"/></a>
                 </li>
                 <li><b>Resumé: </b><a href={CV} download>
-                  <img id="resume-pic" src={downloadIcon} alt="Link to download resumé as pdf-file"/></a>
+                  <img className="resume-pic" src={downloadIcon} alt="Link to download resumé as pdf-file"/></a>
                 </li>
               </ul>
           </div>
