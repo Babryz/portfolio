@@ -20,7 +20,7 @@ const Projects = () => {
             ],
             slug: 'jackpot-roller',
             image_path: Jackpot,
-            description: 'I saw a jackpot roller in a Youtube video and thought to myself, "How hard could that be to make?". So with the help of React, I set out to make one.'
+            description: 'I saw a jackpot roller in a Youtube video and thought to myself, "Could one make one of those for the web, and then how?". So with the help of React, I set out to make one.'
         },
         {
             title: 'Wordpress/Woocommerce/AlpineJS webshop',
@@ -32,7 +32,7 @@ const Projects = () => {
             ],
             slug: 'eventpaket',
             image_path: Eventpaket,
-            description: 'Eventpaket.se, built during my internship all by me, the core is set up with WP and WC, but the single product page is where the coding-magic lies, it`s completely custom built with AlpineJS and I modified the WC backend with the help of hooks to pick up all the custom information.'
+            description: "Eventpaket.se, I built this during my internship for one of their clients, the core is set up with WP and WC, but the single product page is where the coding-magic lies, it's completely custom built with AlpineJS and I've modified the WC backend with the help of hooks to pick up all the custom information."
         },
         {
             title: 'React/NodeJS/GraphQL Web Shop',
