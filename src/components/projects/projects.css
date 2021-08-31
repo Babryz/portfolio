@@ -21,8 +21,6 @@
   width: 400px;
   display: flex;
   flex-direction: column;
-  /* border: 4px ridge rgba(80, 10, 39, 1); */
-  /* background:rgba(192, 157, 157, 0.5); */
   box-shadow: 2px 2px 7px rgb(107, 80, 80);
 }
 
@@ -91,6 +89,10 @@
 @media screen and (max-width: 600px) {
   .container {
     width: unset;
+  }
+
+  .projects-container {
+    margin: 30px auto;
   }
 
   .project {

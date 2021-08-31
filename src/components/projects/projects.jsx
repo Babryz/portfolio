@@ -62,22 +62,12 @@ const Projects = () => {
                 {
                     projects.map((project, i) => {
                         return (
-                            // <div className="project" id={project.slug} >
-                            //     <h4>{project.title}</h4>
-                            //     <div className="background">
-                            //         <div>
-                            //             {project.links.map((link) => {
-                            //                 return <a href={link.url}>{link.title}</a>
-                            //             })}
-                            //         </div>
-                            //     </div>
-                            // </div>
                             <div className="project" id={project.slug} key={i}>
                                 <img src={project.image_path} className="project-img" alt="" />
                                 <div className="project-content">
                                     <div className="project-tags">
-                                        {project.tags.map((tag) => {
-                                            return <span className="project-tag">{tag}</span>
+                                        {project.tags.map((tag, i) => {
+                                            return <span key={i} className="project-tag">{tag}</span>
                                         })}
                                     </div>
                                     <h4 className="project-title">{project.title}</h4>
