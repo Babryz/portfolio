@@ -14,12 +14,51 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0;
+    margin: 60px 0;
 }
 
 header {
     width: 100%;
-    border-radius: 0px 0px 5px 5px;
+}
+
+.main-menu-container {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(66, 25, 42, 1);
+    padding: 20px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+    font-size: 20px;
+}
+
+.main-menu li a:hover {
+    text-decoration: underline;
+}
+
+.header-container {
+    margin: 20px;
+    display: flex; 
+    align-items: center;
+}
+
+.header-top {
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,12 +66,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header-container {
-    margin: 20px;
-    display: flex; 
-    align-items: center;
 }
 
 .presentation {
@@ -60,6 +93,7 @@ header h2 {
     font-weight: lighter;
     color: #FFFFFF;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .contact {
@@ -98,7 +132,6 @@ header h2 {
 footer {
     min-height: 125px;
     width: 100%;
-    border-radius: 5px 5px 0px 0px;
     background-size: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -127,6 +160,38 @@ footer a {
 
 footer a:hover {
     color: purple;
+}
+
+.to-top-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-to-top {
+    background-color: rgba(66, 25, 42, 0.85);
+    border: 1px solid rgba(66, 25, 42, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+.footer-to-top:hover {
+    background-color: rgba(66, 25, 42, 0.7);
+}
+
+.footer-to-top svg {
+    pointer-events: none;
+    color: #fff;
+    width: 25px;
+    height: 25px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -162,8 +227,12 @@ footer a:hover {
         text-align: center;
     }
 
-    header {
+    .header-top {
         flex-direction: column;
+    }
+
+    header h2 {
+        margin-bottom: unset;
     }
 
     #skills-li>ul {

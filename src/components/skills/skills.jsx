@@ -17,7 +17,7 @@ import TWIcon from "../../pictures/tailwind.png";
 
 const Skills = () => {
     return (
-        <div className="container skills">
+        <div className="container skills" id="skills">
             <h3>SKILLS</h3>
             <div className="skills-list">
                 <ul>
