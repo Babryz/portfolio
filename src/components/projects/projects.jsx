@@ -8,7 +8,7 @@ import GameSeeker from '../../pictures/gameseeker.PNG';
 const Projects = () => {
     let projects = [
         {
-            title: 'GameSeeker',
+            title: 'GameSeeker (In progress)',
             links: [
                 {
                     title: 'Live',
