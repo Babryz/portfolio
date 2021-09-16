@@ -3,9 +3,27 @@ import './projects.css';
 import Jackpot from '../../pictures/jackpot-roller.PNG';
 import Eventpaket from '../../pictures/eventpaket.PNG';
 import Fullstack from '../../pictures/fullstack-js.PNG';
+import GameSeeker from '../../pictures/gameseeker.PNG';
 
 const Projects = () => {
     let projects = [
+        {
+            title: 'GameSeeker',
+            links: [
+                {
+                    title: 'Live',
+                    url: 'https://gameseeker.emilbabra.se'
+                },
+                {
+                    title: 'Code',
+                    url: 'https://github.com/Babryz/gameseeker'
+                },
+            ],
+            slug: 'gameseeker',
+            image_path: GameSeeker,
+            tags: ['React', 'Redux', 'Figma', 'RestAPI'],
+            description: 'A platform where you can search for games either by scrolling through categories or by searching for them. I got the idea because I wanted to do a project with a public API. I used redux as state-managment simply to avoid dealing with sending state up and down components.'
+        },
         {
             title: 'Jackpot roller',
             links: [
