@@ -21,7 +21,7 @@ const Projects = () => {
             ],
             slug: 'gameseeker',
             image_path: GameSeeker,
-            tags: ['React', 'Redux', 'Figma', 'RestAPI'],
+            tags: ['React', 'Redux', 'Figma', 'RestAPI', 'In progress'],
             description: 'A platform where you can search for games either by scrolling through categories or by searching for them. I got the idea because I wanted to do a project with a public API. I used redux as state-managment simply to avoid dealing with sending state up and down components.'
         },
         {
