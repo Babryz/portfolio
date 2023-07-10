@@ -2,8 +2,10 @@ import React from 'react';
 import './projects.css';
 import Jackpot from '../../pictures/jackpot-roller.PNG';
 import Eventpaket from '../../pictures/eventpaket.PNG';
-import Fullstack from '../../pictures/fullstack-js.PNG';
 import GameSeeker from '../../pictures/gameseeker.PNG';
+import Maxel from '../../pictures/maxel-se.PNG';
+import Uteliv from '../../pictures/uteliv.PNG';
+import Multistep from '../../pictures/kontrollbolaget-multistep.PNG';
 
 const Projects = () => {
     let projects = [
@@ -21,7 +23,7 @@ const Projects = () => {
             ],
             slug: 'gameseeker',
             image_path: GameSeeker,
-            tags: ['React', 'Redux', 'Figma', 'RestAPI', 'In progress'],
+            tags: ['React', 'Redux', 'Figma', 'RestAPI', 'Design (Figma)'],
             description: 'A platform where you can search for games either by scrolling through categories or by searching for them. I got the idea because I wanted to do a project with a public API. I used redux as state-managment simply to avoid dealing with sending state up and down components.'
         },
         {
@@ -52,44 +54,49 @@ const Projects = () => {
             slug: 'eventpaket',
             image_path: Eventpaket,
             tags: ['PHP', 'AlpineJS', 'TailwindCSS', 'Sass', 'Woocommerce', 'Wordpress'],
-            description: "Eventpaket.se, I built this during my internship for one of their clients, the core is set up with WP and WC, but the single product page is where the coding-magic lies, it's completely custom built with AlpineJS and I've modified the WC backend with the help of hooks to pick up all the custom information."
-        },
-        {
-            title: 'Rocket League items Web Shop',
-            links: [
-                {
-                    title: 'Live',
-                    url: 'https://rlitems.emilbabra.se'
-                },
-                {
-                    title: 'Code',
-                    url: 'https://github.com/chas-academy/u09-react-weather-app'
-                }
-            ],
-            slug: 'fullstack',
-            image_path: Fullstack,
-            tags: ['React/TypeScript', 'NodeJS/ExpressJS', 'GraphQL', 'MongoDB'],
-            description: 'Webshop built with React and NodeJS, connects to a MongoDB-database on the backend and connects frontend -> backend with the help of GraphQL. Both code and design made by me.'
+            description: "Eventpaket.se, I built this during my internship for one of their clients as my graduation project. The core is set up with WP and WC, but the single product page is where the coding-magic lies, it's completely custom built with AlpineJS and I've modified the WC backend with the help of hooks to pick up all the custom information."
         },
     ]
 
     let profProjects = [
         {
-            title: 'GameSeeker (In progress)',
+            title: 'Maxel',
             links: [
                 {
                     title: 'Live',
-                    url: 'https://gameseeker.emilbabra.se'
-                },
-                {
-                    title: 'Code',
-                    url: 'https://github.com/Babryz/gameseeker'
+                    url: 'https:/maxel.se'
                 },
             ],
-            slug: 'gameseeker',
-            image_path: GameSeeker,
-            tags: ['React', 'Redux', 'Figma', 'RestAPI', 'In progress'],
-            description: 'A platform where you can search for games either by scrolling through categories or by searching for them. I got the idea because I wanted to do a project with a public API. I used redux as state-managment simply to avoid dealing with sending state up and down components.'
+            slug: 'maxel',
+            image_path: Maxel,
+            tags: ['Wordpress', 'Woocommerce', 'JS/AlpineJS', 'RestAPI', 'PHP'],
+            description: 'An e-commerce website for Maxel Belysning to sell their products. Helped build from scratch both visually and helped on backend. Biggest challenge on the site was creating a script for automatically importing products from their API.'
+        },
+        {
+            title: 'Multistep form',
+            links: [
+                {
+                    title: 'Live',
+                    url: 'https://www.kontrollbolaget.se/bestall-energibalansberakning-enbostadshus/'
+                },
+            ],
+            slug: 'kontrollbolaget',
+            image_path: Multistep,
+            tags: [ 'JS/AlpineJS', 'PHP', 'TailwindCSS', 'Wordpress', 'ACF'],
+            description: 'One of the most fun features I´ve built so far, a custom multistep form for our custom Kontrollbolaget. It´s a dynamic form where the admin can change everything from the steps, sections, questions/inputs types themselves. It´s built with the help of AlpineJS & TailwindCSS for the frontend and PHP for the backend.'
+        },
+        {
+            title: 'Aktivt Uteliv',
+            links: [
+                {
+                    title: 'Live',
+                    url: 'https:/aktivtuteliv.se'
+                },
+            ],
+            slug: 'uteliv',
+            image_path: Uteliv,
+            tags: ['Wordpress', 'Woocommerce', 'JS/AlpineJS', 'PHP'],
+            description: 'A multisite e-commerce for Aktivt Uteliv to rent out their products. Built all of the frontend from scratch, some features on the backend and have handled bigger part of the support of both back- and frontend after release. The biggest challenge on this site has been the rental bundles since there was no preexisting Wordpress plugin that supported both rentals and bundles.'
         },
     ]
 
