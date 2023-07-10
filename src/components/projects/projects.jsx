@@ -73,35 +73,86 @@ const Projects = () => {
         },
     ]
 
+    let profProjects = [
+        {
+            title: 'GameSeeker (In progress)',
+            links: [
+                {
+                    title: 'Live',
+                    url: 'https://gameseeker.emilbabra.se'
+                },
+                {
+                    title: 'Code',
+                    url: 'https://github.com/Babryz/gameseeker'
+                },
+            ],
+            slug: 'gameseeker',
+            image_path: GameSeeker,
+            tags: ['React', 'Redux', 'Figma', 'RestAPI', 'In progress'],
+            description: 'A platform where you can search for games either by scrolling through categories or by searching for them. I got the idea because I wanted to do a project with a public API. I used redux as state-managment simply to avoid dealing with sending state up and down components.'
+        },
+    ]
+
     return (
         <div className="container projects-container" id="projects">
-            <h3>RECENT PROJECTS</h3>
-            <div className="projects">
-                {
-                    projects.map((project, i) => {
-                        return (
-                            <div className="project" id={project.slug} key={i}>
-                                <img src={project.image_path} className="project-img" alt="" />
-                                <div className="project-content">
-                                    <div className="project-tags">
-                                        {project.tags.map((tag, i) => {
-                                            return <span key={i} className="project-tag">{tag}</span>
+            <div>
+                <h3>PROFESSIONAL PROJECTS</h3>
+                <div className="projects">
+                    {
+                        profProjects.map((project, i) => {
+                            return (
+                                <div className="project" id={project.slug} key={i}>
+                                    <img src={project.image_path} className="project-img" alt="" />
+                                    <div className="project-content">
+                                        <div className="project-tags">
+                                            {project.tags.map((tag, i) => {
+                                                return <span key={i} className="project-tag">{tag}</span>
+                                            })}
+                                        </div>
+                                        <h4 className="project-title">{project.title}</h4>
+                                        <p className="project-description">{project.description}</p>
+                                    </div>
+                                    <div className="project-links">
+                                        {project.links.map((link, i) => {
+                                            return <a target="_blank" rel="noopener noreferrer" key={i} className="project-link" href={link.url}>{link.title}</a>
                                         })}
                                     </div>
-                                    <h4 className="project-title">{project.title}</h4>
-                                    <p className="project-description">{project.description}</p>
                                 </div>
-                                <div className="project-links">
-                                    {project.links.map((link, i) => {
-                                        return <a target="_blank" rel="noopener noreferrer" key={i} className="project-link" href={link.url}>{link.title}</a>
-                                    })}
-                                </div>
-                            </div>
-                        )
-                        
-                    })
-                }
+                            )
+                                    
+                        })
+                    }
+                </div>
             </div>
+            <div>
+                <h3>PERSONAL PROJECTS</h3>
+                <div className="projects">
+                    {
+                        projects.map((project, i) => {
+                            return (
+                                <div className="project" id={project.slug} key={i}>
+                                    <img src={project.image_path} className="project-img" alt="" />
+                                    <div className="project-content">
+                                        <div className="project-tags">
+                                            {project.tags.map((tag, i) => {
+                                                return <span key={i} className="project-tag">{tag}</span>
+                                            })}
+                                        </div>
+                                        <h4 className="project-title">{project.title}</h4>
+                                        <p className="project-description">{project.description}</p>
+                                    </div>
+                                    <div className="project-links">
+                                        {project.links.map((link, i) => {
+                                            return <a target="_blank" rel="noopener noreferrer" key={i} className="project-link" href={link.url}>{link.title}</a>
+                                        })}
+                                    </div>
+                                </div>
+                            )
+                                    
+                        })
+                    }
+                </div>
+            </div>  
         </div>
     )
 }
