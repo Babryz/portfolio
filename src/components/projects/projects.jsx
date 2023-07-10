@@ -64,7 +64,7 @@ const Projects = () => {
             links: [
                 {
                     title: 'Live',
-                    url: 'https:/maxel.se'
+                    url: 'https://maxel.se/'
                 },
             ],
             slug: 'maxel',
@@ -83,14 +83,14 @@ const Projects = () => {
             slug: 'kontrollbolaget',
             image_path: Multistep,
             tags: [ 'JS/AlpineJS', 'PHP', 'TailwindCSS', 'Wordpress', 'ACF'],
-            description: 'One of the most fun features I´ve built so far, a custom multistep form for our customer Kontrollbolaget. It´s a dynamic form where the admin can change everything from the steps, sections, questions/inputs types themselves. It´s built with the help of AlpineJS & TailwindCSS for the frontend and PHP for the backend.'
+            description: 'One of the most fun features I´ve built so far, a custom multistep form for our customer Kontrollbolaget. It´s a dynamic form where the admin can change everything from the steps, sections and questions/inputs-types themselves. It´s built with the help of AlpineJS & TailwindCSS for the frontend and PHP for the backend.'
         },
         {
             title: 'Aktivt Uteliv',
             links: [
                 {
                     title: 'Live',
-                    url: 'https:/aktivtuteliv.se'
+                    url: 'https://aktivtuteliv.se/'
                 },
             ],
             slug: 'uteliv',
